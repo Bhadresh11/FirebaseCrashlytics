@@ -1,0 +1,6 @@
+framework module Pods_Firebasecrashlytics__iOS_ {
+  umbrella header "Pods-Firebasecrashlytics (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}

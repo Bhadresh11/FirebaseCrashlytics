@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16E642B4D071512DE8E42115 /* Pods_Firebasecrashlytics__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81FF72EC576FEA14A5A22E2 /* Pods_Firebasecrashlytics__macOS_.framework */; };
 		81EF7219268E36950062DF5A /* FirebasecrashlyticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EF7206268E36930062DF5A /* FirebasecrashlyticsApp.swift */; };
 		81EF721A268E36950062DF5A /* FirebasecrashlyticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EF7206268E36930062DF5A /* FirebasecrashlyticsApp.swift */; };
 		81EF721B268E36950062DF5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EF7207268E36930062DF5A /* ContentView.swift */; };
 		81EF721C268E36950062DF5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EF7207268E36930062DF5A /* ContentView.swift */; };
 		81EF721D268E36950062DF5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EF7208268E36950062DF5A /* Assets.xcassets */; };
 		81EF721E268E36950062DF5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EF7208268E36950062DF5A /* Assets.xcassets */; };
+		F884947568EB4E0ABD9907CE /* Pods_Firebasecrashlytics__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D6E7D1E29E3F0B4E8D16E3 /* Pods_Firebasecrashlytics__iOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5AF1F6BC4E75EF6229524DD4 /* Pods-Firebasecrashlytics (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebasecrashlytics (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Firebasecrashlytics (iOS)/Pods-Firebasecrashlytics (iOS).debug.xcconfig"; sourceTree = "<group>"; };
 		81EF7206268E36930062DF5A /* FirebasecrashlyticsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebasecrashlyticsApp.swift; sourceTree = "<group>"; };
 		81EF7207268E36930062DF5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		81EF7208268E36950062DF5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,6 +27,11 @@
 		81EF7215268E36950062DF5A /* Firebasecrashlytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Firebasecrashlytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81EF7217268E36950062DF5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81EF7218268E36950062DF5A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		A7D6E7D1E29E3F0B4E8D16E3 /* Pods_Firebasecrashlytics__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebasecrashlytics__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECEE03CFD7752255CD6CE6D /* Pods-Firebasecrashlytics (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebasecrashlytics (macOS).release.xcconfig"; path = "Target Support Files/Pods-Firebasecrashlytics (macOS)/Pods-Firebasecrashlytics (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		D05676038311B95F4D883F82 /* Pods-Firebasecrashlytics (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebasecrashlytics (iOS).release.xcconfig"; path = "Target Support Files/Pods-Firebasecrashlytics (iOS)/Pods-Firebasecrashlytics (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		F81FF72EC576FEA14A5A22E2 /* Pods_Firebasecrashlytics__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebasecrashlytics__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE99AA29CD76671E50CCA264 /* Pods-Firebasecrashlytics (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebasecrashlytics (macOS).debug.xcconfig"; path = "Target Support Files/Pods-Firebasecrashlytics (macOS)/Pods-Firebasecrashlytics (macOS).debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F884947568EB4E0ABD9907CE /* Pods_Firebasecrashlytics__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,12 +47,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16E642B4D071512DE8E42115 /* Pods_Firebasecrashlytics__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		077CE55B768A6F8C6D01809E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7D6E7D1E29E3F0B4E8D16E3 /* Pods_Firebasecrashlytics__iOS_.framework */,
+				F81FF72EC576FEA14A5A22E2 /* Pods_Firebasecrashlytics__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		81EF7200268E36930062DF5A = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +70,8 @@
 				81EF720F268E36950062DF5A /* iOS */,
 				81EF7216268E36950062DF5A /* macOS */,
 				81EF720E268E36950062DF5A /* Products */,
+				987A89ECF64069D799F0F433 /* Pods */,
+				077CE55B768A6F8C6D01809E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +111,18 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		987A89ECF64069D799F0F433 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AF1F6BC4E75EF6229524DD4 /* Pods-Firebasecrashlytics (iOS).debug.xcconfig */,
+				D05676038311B95F4D883F82 /* Pods-Firebasecrashlytics (iOS).release.xcconfig */,
+				FE99AA29CD76671E50CCA264 /* Pods-Firebasecrashlytics (macOS).debug.xcconfig */,
+				AECEE03CFD7752255CD6CE6D /* Pods-Firebasecrashlytics (macOS).release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,9 +130,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81EF7221268E36950062DF5A /* Build configuration list for PBXNativeTarget "Firebasecrashlytics (iOS)" */;
 			buildPhases = (
+				F72E889668187B16C87F5A9E /* [CP] Check Pods Manifest.lock */,
 				81EF7209268E36950062DF5A /* Sources */,
 				81EF720A268E36950062DF5A /* Frameworks */,
 				81EF720B268E36950062DF5A /* Resources */,
+				BCCF947165B8C1ABD5263874 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -114,6 +149,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81EF7224268E36950062DF5A /* Build configuration list for PBXNativeTarget "Firebasecrashlytics (macOS)" */;
 			buildPhases = (
+				3F21FEE407380FB253E23004 /* [CP] Check Pods Manifest.lock */,
 				81EF7211268E36950062DF5A /* Sources */,
 				81EF7212268E36950062DF5A /* Frameworks */,
 				81EF7213268E36950062DF5A /* Resources */,
@@ -181,6 +217,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F21FEE407380FB253E23004 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Firebasecrashlytics (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCCF947165B8C1ABD5263874 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebasecrashlytics (iOS)/Pods-Firebasecrashlytics (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebasecrashlytics (iOS)/Pods-Firebasecrashlytics (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firebasecrashlytics (iOS)/Pods-Firebasecrashlytics (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F72E889668187B16C87F5A9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Firebasecrashlytics (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		81EF7209268E36950062DF5A /* Sources */ = {
@@ -317,6 +417,7 @@
 		};
 		81EF7222268E36950062DF5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF1F6BC4E75EF6229524DD4 /* Pods-Firebasecrashlytics (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -338,6 +439,7 @@
 		};
 		81EF7223268E36950062DF5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D05676038311B95F4D883F82 /* Pods-Firebasecrashlytics (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -360,6 +462,7 @@
 		};
 		81EF7225268E36950062DF5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE99AA29CD76671E50CCA264 /* Pods-Firebasecrashlytics (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -382,6 +485,7 @@
 		};
 		81EF7226268E36950062DF5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AECEE03CFD7752255CD6CE6D /* Pods-Firebasecrashlytics (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
