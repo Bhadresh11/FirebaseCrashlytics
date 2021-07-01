@@ -17,6 +17,9 @@ xcuserdata/
 project.xcworkspace/
 DerivedData/
 
+# Cocoapods
+Pods/
+
 # build products
 build/
 *.[oa]
@@ -25,6 +28,12 @@ build/
 .hg
 .svn
 CVS
+Pods/
+
+
+# Cocoapods
+Pods/
+
 
 # automatic backup files
 *~.nib
